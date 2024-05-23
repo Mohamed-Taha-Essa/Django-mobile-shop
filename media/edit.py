@@ -56,8 +56,8 @@ def main():
     output_dir = os.path.join(current_dir, "resized_images")
     
     # New dimensions for the resized images
-    new_width = 1300
-    new_height = 500
+    new_width = 2000
+    new_height = 1080
     
     # Batch resize images
     batch_resize_images(input_dir, output_dir, new_width, new_height)
