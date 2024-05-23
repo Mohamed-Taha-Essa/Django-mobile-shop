@@ -29,7 +29,7 @@ DATABASES = {
         'NAME': config('DATABASE_NAME', default='db.sqlite3'),
     }
 }
-
+ 
 
 # Application definition
 
